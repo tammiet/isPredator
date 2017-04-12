@@ -1,4 +1,4 @@
-# IsPredator
+# isPredator
 I was interested in using a random forest (ensemble learning) and compare it against a neural network to classify if an animal is a predator. I used the “zoo” dataset from UCI Machine Learning. 
 
 
