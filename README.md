@@ -14,7 +14,7 @@ This will prompt for 4 paramaters
 - test_data_size: percent of data used in training set (the rest is used in test set)
 - reps: number of times a forest is generated
 
-## Find accuracy of neural network for multiple neural networks.
+### Find accuracy of neural network for multiple neural networks.
 
 $python predatorNetting.py
 
