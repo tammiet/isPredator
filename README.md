@@ -1,5 +1,5 @@
 # isPredator
-I was interested in using a random forest (ensemble learning) and compare it against a neural network to classify if an animal is a predator. I used the “zoo” dataset from UCI Machine Learning. 
+I was interested in using a random forest (ensemble learning) and compare it against a neural network to classify an animal as a predator or non-predator I used the “zoo” dataset from UCI Machine Learning. The learning.py file and utils.py file are modified from the AIMA python package: https://github.com/aimacode/aima-python.
 
 
 ## How to run random forest
@@ -14,8 +14,6 @@ This will prompt for 4 paramaters
 - test_data_size: percent of data used in training set (the rest is used in test set)
 - reps: number of times a forest is generated
 
-## Comparing neural network against random forest
-
 ## Find accuracy of neural network for multiple neural networks.
 
 $python predatorNetting.py
@@ -24,6 +22,9 @@ This will prompt for 3 parameters:
 - Proportion of entries in training set (number between 0 and 1)
 - Number of times neural network is generated
 - Number of nodes in hidden layer
+
+
+## Comparing neural network against random forest
 
 ### Plot 3D graph for random forest trials
 In order to get the 3D plot that can be manipulated, you have to run plotPredator as such:
