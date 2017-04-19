@@ -2,7 +2,7 @@
 I was interested in using a random forest (ensemble learning) to compare against a neural network to classify an animal as a predator or non-predator using the “zoo” dataset from UCI Machine Learning. The learning.py and utils.py files are modified from the AIMA python package: https://github.com/aimacode/aima-python.
 
 
-## How to run random forest
+## How to run classification algorithms
 
 ### Find the accuracy of multiple random forests
 
